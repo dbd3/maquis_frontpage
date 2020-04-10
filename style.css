@@ -1,0 +1,289 @@
+/* Body and rectangles */
+h1 {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.wrapper{
+  width: 960px;
+  margin: 0 auto;
+  background-color: #F9F9F9;
+  
+}
+
+.body{
+  background-color: #ECECEC;
+}
+
+.rectangle{
+  height: 76px;
+  width: 100%;
+  background-color:#2F779A;
+}
+
+
+/* Navigation menu */
+.topnav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color:#2F779A;
+}
+
+.topnav li {
+  float: left;
+  text-align: center;
+  margin-left: 3.75%;
+  
+}
+
+li a, .dropbtn {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li.dropdown {
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  border-radius: 5px;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+  border-bottom:1px solid#2F779A;
+}
+
+.dropdown-content a:hover {
+    background-color: #f1f1f1;
+    color:#2F779A
+  
+  }
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+
+/* For carousel */
+.slideshow {
+  width: 700px;
+  overflow: hidden;
+  padding: 0 175px 0;
+  margin-bottom: 10px;
+  border: 5px solid #999;
+  background-color: #D3D3D3;
+}
+.slides {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+.slide {
+  float: left;
+  width: 210px;
+  height: 110px;
+  padding: 20px;
+}
+
+code {
+  background: #ccc;
+  display: inline-block;
+  vertical-align: middle;
+  padding: 5px;
+}
+
+.prev {
+  float:left;
+  clear: none;
+}
+
+.next {
+  float: right;
+  clear: none;
+  padding: 0;
+}
+
+
+/* Text Boxes */
+.mainPics{
+    height: 500px;
+    column-count: 2;
+    margin: 0 0 -100px 0;
+}
+
+.mainPics img{
+  display: block;
+  float: right;
+  padding-top: -1px;
+  height: 50%;
+}
+.mainPics p {
+  background-color: black;
+  color: #FFF;
+  float: left;
+  
+}
+
+.black-text-box{
+  background-color: black;
+  float: left;
+  height: 50%;
+  position: relative;
+}
+
+.black-text-box .span{
+  font-size: larger;
+}
+
+/* Header and footer */
+.header{
+  position: fixed;
+  padding: 0;
+  top: 0;
+  left: 0;
+  width: 100%;
+  box-sizing: border-box;
+  background-color: black;
+  opacity: 0.85;
+}
+
+.left-column input[type=image]{
+  position: relative;
+  background: rgba(0,0,0,0.6);
+  color: #ffffff;
+  padding-top: 5px;
+  width: 32px;
+  height: 32px;
+  z-index: 10;
+}
+
+
+
+.footer{
+  position: fixed;
+  width: 100%;
+  left: 0;
+  bottom: 0;
+  padding: 20px 0;
+  box-sizing: border-box;
+  background-color: black;
+  opacity: 0.75;
+  z-index: 10;
+  
+}
+
+/* Columns for header */
+.right-column{
+  float: right;
+  width: 22.33%;
+  padding: 0px -100px 0 5px;
+  margin: 0;
+  color: #ccc;
+  text-align: left;
+  font-family: sans-serif;
+}
+
+.right-column a{
+  text-decoration: none;
+  color: #ccc;
+}
+
+.left-column{
+  float: left;
+  width: 30%;
+}
+
+
+.header input[type=text] {
+  position: relative;
+  float: left;
+  padding: 6px;
+  border: none;
+  margin-top: 8px;
+  margin-right: 16px;
+  font-size: 17px;
+  z-index: 10;
+}
+
+/* .search-box{
+  position: absolute;
+  top: 25%;
+  left: 50%;
+
+} */
+.white-box{
+  position: relative;
+  float: right;
+  width: 25%;
+  padding: 0 10px;
+  
+}
+
+
+
+.header-card-column {
+  float: right;
+  width: 10%;
+  color: black;
+  background-color: #FFF;
+  font-family: sans-serif;
+  border-bottom-right-radius: 1em;
+  border-bottom-left-radius: 1em;
+}
+
+.row {
+  position: relative;
+  top: 0px;
+  right: 0px;
+  
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+  
+  
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); 
+  text-align: center;
+
+  top: 0;
+  border-bottom-left-radius: 15%;
+  border-bottom-right-radius: 15%;
+}
+
+
+.footer-column {
+  float: left;
+  width: 33.33%;
+  padding: 10px -155px 10px 5px;
+  margin: 0;
+  color: #ccc;
+  text-align: center;
+  text-decoration: none;
+  font-family: sans-serif;
+}
+
+.footer-column a {
+  text-decoration: none;
+  color: #FFF;
+}
